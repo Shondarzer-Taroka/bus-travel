@@ -3,10 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisy UI links -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>P-ticket</title>
 </head>
-<body style="background-color: blueviolet;">
-    <img src="./images/banner.png" style="width: 50%; height:100%;" alt="">
+<body>
+
+  <section class=" max-w-[1172px] mx-auto">
+    <section id="navigation" class="navigation">
+
+      <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Item-1</a></li>
+                <!-- <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li> -->
+                <li><a>Destination</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">P-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li>
+                  <a>About</a>
+                <!-- <details>
+                  <summary></summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details> -->
+              </li>
+              <li><a>Destination</a></li>
+
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-[#bdead0de] text-[#1ee872d4]">Bus <i class="fa-solid fa-bus"></i></a>
+          </div>
+        </div>
+  </section>
+
+
+  <!-- banner section starts here -->
+  <section id="banner" class="banner w-[1160px] mx-auto text-center flex flex-col items-center justify-center" style="background: url('./image/images/banner.png');width: 1160px;height: 550px;background-size: 100% 100%; background-position: center;">
+    <div>
+       <h1 class="text-[56px] font-bold text-white text-center">End-to-End Travel with <br> <span class="text-green-600">P Paribahan</span> </h1>
+   <p class="text-gray-300 text-[22px] text-center">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
+  <button class="btn btn-primary my-3 bg-[#1DD100] text-black">Buy Tickets</button>
+    </div>
+  
+  </section>
+  <!-- banner section ends here -->
+
+  <h1 class="text-[45px] font-bold text-center my-10">Best offers for you</h1>
+  
+
+  <!-- coupon section starts here -->
+   <section id="coupon" class="coupon flex justify-between ">
+     <div class="flex">
+
+      <div class="w-[290px] h-[180px] p-8 bg-yellow-500  relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+        <h1 class="text-[36px] font-bold">15% OFF </h1>
+        <p class="font-semibold">on your next purchase</p>
+        <p class="text-gray-400">use by January 2024</p>
+        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+        </div>
+
+
+        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+        </div>
+      </div>
+
+
+
+      <div class="w-[190px] h-[180px] bg-yellow-500 p-8 relative" style="border-radius:20px;">
+        <h1 class="text-[36px] font-bold">NEW15</h1>
+        <p class="text-gray-400">Coupon Code</p>
+      </div>
+     </div>
+
+
+
+
+     <div class="flex">
+      <div class="w-[290px] h-[180px] p-8 bg-[#F78C9C] relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+        <h1 class="text-[36px] font-bold">20% OFF </h1>
+        <p class="font-semibold">on your next purchase</p>
+        <p class="text-gray-400">use by January 2024</p>
+        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+        </div>
+        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+        </div>
+      </div>
+
+
+
+      <div class="w-[200px] h-[180px] bg-[#F78C9C] p-8 relative" style="border-radius:20px;">
+        <h1 class="text-[36px] font-bold">Couple20</h1>
+        <p class="text-gray-400">Coupon Code</p>
+
+      </div>
+     </div>
+   </section>
+  <!-- coupon section ends here -->
+  <section class="text-center my-11">
+      <button class="btn btn-primayr bg-transparent border-green-400 rounded-lg  text-green-500">See All Offer</button>
+  </section>
+
+
+  <!-- Paribhan section starts here -->
+  
+  <section class="bg-[#F7F8F8]" style=" border-top:2px solid #1DD100; border-radius: 30px;">
+
+  <h1 class="text-[44px] font-bold text-center">P.H Paribahan</h1>
+  <p class="text-gray-400 text-center">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
+
+
+  <!-- ja starts-->
+  <div class="flex" style="margin-top: 1.5rem;">
+
+    <div class="w-[70%]  p-8 bg-white  relative" style="border-radius:20px; border-right: dashed; border-color: #1DD100;">
+     <div class="flex items-center justify-between gap-2">
+
+      <div class="flex items-center gap-2">
+              <img src="./image/images/bus-logo.png" alt="" srcset="">
+      <div>
+        <h1 class="text-[30px] font-bold">Greenline Paribahan</h1>
+         <p class="text-gray-400">Coach-009-WEB ! AC_Business</p>
+      </div>
+      </div>
+
+      <div>
+        <div>
+          <p class="flex gap-2 items-center text-[#1DD100] bg-[#c4f7bc] rounded p-2"><img src="./image/images/seat-green.png"><span id="forty">40</span>seats left</p>
+        </div>
+      </div>
+    </div>
+
+ 
+
+    <div class="flex flex-col gap-3 justify-between  bg-[#F7F8F8]">
+      <div class=" bg-[#F7F8F8] p-5">
+      <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+      <p class="">Route</p>
+      <p class="" >Dhaka</p>
+      </div>
+      </div> 
+
+
+      <div class=" bg-[#F7F8F8] p-5">
+        <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+        <p class="">Departure Time</p>
+        <p class="" >9:00 PM</p>
+        </div>
+        </div> 
+
+
+        <div class=" bg-[#F7F8F8] p-5">
+          <div class="flex items-center justify-between gap-2 py-2">
+            <button class="btn btn-primary bg-gray-300 text-black">Boarding Point - Laxmipur</button>
+            <button class="btn btn-primary bg-gray-300 text-black">Dropping Point - BoguraLaxmipur</button>
+            <button class="btn btn-primary bg-gray-300 text-black">Est. Time - 11 HourBoguraLaxmipur</button>
+          </div> 
+          </div>
+      
+   
+     
+      <!-- <h1 class="text-[36px] font-bold">15% OFF </h1>
+      <p class="font-semibold">on your next purchase</p>
+      <p class="text-gray-400">use by January 2024</p> -->
+      <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+      </div>
+
+
+      <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+      </div>
+    </div>
+
+
+
+
+   </div>
+
+    <div class="w-[30%] bg-white p-8 relative flex flex-col items-center justify-center" style="border-radius:20px;">
+
+    <img src="./image/images/fare.png" alt="" srcset="">
+     <h1 class="text-[33px] font-bold">550Taka</h1>
+     <p class="" style="background-image: linear-gradient ( to bottom ,rgb(181, 180, 180),rgb(124, 120, 120));">Per seat</p>
+    </div>
+  </div>
+<!-- seat section starts here -->
+    <div id="seat_section" class="bg-white my-7">
+
+      <div>
+        <div class="text-[30px] font-bold p-3" >
+          <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
+          
+        </div>
+
+        <div class="p-3">
+     <div class="flex justify-between pb-3"  style="border-bottom: 2px solid gray; border-style: dashed;">
+     <p class="flex items-center gap-1"><img src="./image/images/seat-gray.png"> Available</p>
+     <p class="flex items-center gap-1"><img src="./image/images/seat-green-filled.png"> selected</p>
+        </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+      <div>
+
+      </div>
+    </div>
+<!-- seat section ends here -->
+
+
+  </section>
+
+<!--  Paribhan section ends here -->
+
+</section>    
 </body>
 </html>
