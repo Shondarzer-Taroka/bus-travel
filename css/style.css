@@ -6,3 +6,17 @@
  width: 1171px;
  height: 550px;
 } */
+.grid-container{
+
+}
+
+.item{
+    background-color: #F7F8F8;
+    border-radius: 12px;
+    
+    /* width: 100px; */
+    padding: 10px 5px;
+}
+.item-fixed{
+    background-color: transparent;
+}

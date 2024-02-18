@@ -60,194 +60,390 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-[#bdead0de] text-[#1ee872d4]">Bus <i class="fa-solid fa-bus"></i></a>
+            <a class="btn bg-[#bdead0de] text-[#1ee872d4] flex gap-1 items-center font-semibold">Bus <img src="./image/images/bus-icon.png" alt="" srcset=""></a>
           </div>
         </div>
   </section>
 
 
-  <!-- banner section starts here -->
-  <section id="banner" class="banner w-[1160px] mx-auto text-center flex flex-col items-center justify-center" style="background: url('./image/images/banner.png');width: 1160px;height: 550px;background-size: 100% 100%; background-position: center;">
-    <div>
-       <h1 class="text-[56px] font-bold text-white text-center">End-to-End Travel with <br> <span class="text-green-600">P Paribahan</span> </h1>
-   <p class="text-gray-300 text-[22px] text-center">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
-  <button class="btn btn-primary my-3 bg-[#1DD100] text-black">Buy Tickets</button>
+    <div class="hero min-h-screen rounded-xl md:rounded-xl" style="background-image: url(./image/images/banner.png);">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <br> <span class="text-green-600">P Paribahan</span></h1>
+          <p class="mb-5">Yes, you can run unit tests and view the <br> results directly within the app. The integrated testing features allow for a streamlined .</p>
+          <a href="#clickme" class="btn btn-primary my-3 bg-[#1DD100] text-black">Buy Tickets</a>
+        </div>
+      </div>
     </div>
   
-  </section>
+  <!-- </section> -->
   <!-- banner section ends here -->
 
-  <h1 class="text-[45px] font-bold text-center my-10">Best offers for you</h1>
+  <h1 class="text-[45px] font-bold text-center my-8">Best offers for you</h1>
   
 
   <!-- coupon section starts here -->
-   <section id="coupon" class="coupon flex justify-between ">
-     <div class="flex">
-
-      <div class="w-[290px] h-[180px] p-8 bg-yellow-500  relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
-        <h1 class="text-[36px] font-bold">15% OFF </h1>
-        <p class="font-semibold">on your next purchase</p>
-        <p class="text-gray-400">use by January 2024</p>
-        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
-        </div>
 
 
-        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
-        </div>
-      </div>
+  <section id="coupon" class="coupon mt-9 flex items-center justify-between flex-col gap-[90px] md:gap-16 lg:gap-5 lg:flex-row h-[100%] ">
+    <div class="flex">
+
+     <div class="w-[60%] lg:w-[290px] h-[180px] p-5 md:p-8 lg:p-8 bg-yellow-500  relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+       <h1 class="text-[25px] lg:text-[36px] font-bold">15% OFF </h1>
+       <p class="font-semibold">on your next purchase</p>
+       <p class="text-gray-400">use by January 2024</p>
+       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+       </div>
 
 
-
-      <div class="w-[190px] h-[180px] bg-yellow-500 p-8 relative" style="border-radius:20px;">
-        <h1 class="text-[36px] font-bold">NEW15</h1>
-        <p class="text-gray-400">Coupon Code</p>
-      </div>
+       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+       </div>
      </div>
 
 
 
-
-     <div class="flex">
-      <div class="w-[290px] h-[180px] p-8 bg-[#F78C9C] relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
-        <h1 class="text-[36px] font-bold">20% OFF </h1>
-        <p class="font-semibold">on your next purchase</p>
-        <p class="text-gray-400">use by January 2024</p>
-        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
-        </div>
-        <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
-        </div>
-      </div>
-
-
-
-      <div class="w-[200px] h-[180px] bg-[#F78C9C] p-8 relative" style="border-radius:20px;">
-        <h1 class="text-[36px] font-bold">Couple20</h1>
-        <p class="text-gray-400">Coupon Code</p>
-
-      </div>
+     <div class="w-[44%] lg:w-[190px] h-[180px] bg-yellow-500 py-8 lg:p-8 relative" style="border-radius:20px;">
+       <h1 class="text-[24px] lg:text-[36px] font-bold">NEW15</h1>
+       <p class="text-gray-400">Coupon Code</p>
      </div>
-   </section>
-  <!-- coupon section ends here -->
+    </div>
+
+
+
+
+    <div class="flex">
+     <div class="w-[60%] lg:w-[290px] h-[190px] p-5 lg:p-8 bg-[#F78C9C] relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+       <h1 class="text-[24px] lg:text-[36px] font-bold">20% OFF </h1>
+       <p class="font-semibold">on your next purchase</p>
+       <p class="text-gray-400">use by January 2024</p>
+       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+       </div>
+       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+       </div>
+     </div>
+
+
+
+     <div class="w[45%] lg:w-[200px] h-[190px] bg-[#F78C9C] p-8 relative" style="border-radius:20px;">
+       <h1 class="text-[14px] lg:text-[36px] font-bold">Couple20</h1>
+       <p class="text-gray-400">Coupon Code</p>
+
+     </div>
+    </div>
+  </section>
+
+   <!--updated coupon section ends here -->
+
+
+
+
   <section class="text-center my-11">
       <button class="btn btn-primayr bg-transparent border-green-400 rounded-lg  text-green-500">See All Offer</button>
   </section>
 
 
   <!-- Paribhan section starts here -->
+
   
-  <section class="bg-[#F7F8F8]" style=" border-top:2px solid #1DD100; border-radius: 30px;">
+    <section id="clickme" class="bg-[#F7F8F8]" style=" border-top:2px solid #1DD100; border-radius: 30px;">
 
-  <h1 class="text-[44px] font-bold text-center">P.H Paribahan</h1>
-  <p class="text-gray-400 text-center">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
-
-
-  <!-- ja starts-->
-  <div class="flex" style="margin-top: 1.5rem;">
-
-    <div class="w-[70%]  p-8 bg-white  relative" style="border-radius:20px; border-right: dashed; border-color: #1DD100;">
-     <div class="flex items-center justify-between gap-2">
-
-      <div class="flex items-center gap-2">
-              <img src="./image/images/bus-logo.png" alt="" srcset="">
-      <div>
-        <h1 class="text-[30px] font-bold">Greenline Paribahan</h1>
-         <p class="text-gray-400">Coach-009-WEB ! AC_Business</p>
-      </div>
-      </div>
-
-      <div>
-        <div>
-          <p class="flex gap-2 items-center text-[#1DD100] bg-[#c4f7bc] rounded p-2"><img src="./image/images/seat-green.png"><span id="forty">40</span>seats left</p>
-        </div>
-      </div>
-    </div>
-
- 
-
-    <div class="flex flex-col gap-3 justify-between  bg-[#F7F8F8]">
-      <div class=" bg-[#F7F8F8] p-5">
-      <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
-      <p class="">Route</p>
-      <p class="" >Dhaka</p>
-      </div>
-      </div> 
-
-
-      <div class=" bg-[#F7F8F8] p-5">
-        <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
-        <p class="">Departure Time</p>
-        <p class="" >9:00 PM</p>
-        </div>
-        </div> 
-
-
-        <div class=" bg-[#F7F8F8] p-5">
-          <div class="flex items-center justify-between gap-2 py-2">
-            <button class="btn btn-primary bg-gray-300 text-black">Boarding Point - Laxmipur</button>
-            <button class="btn btn-primary bg-gray-300 text-black">Dropping Point - BoguraLaxmipur</button>
-            <button class="btn btn-primary bg-gray-300 text-black">Est. Time - 11 HourBoguraLaxmipur</button>
-          </div> 
+        <h1 class="text-[44px] font-bold text-center">P.H Paribahan</h1>
+        <p class="text-gray-400 text-center">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
+      
+      
+        <!--  starts-->
+        <div class="flex p-2" style="margin-top: 1.5rem;">
+      
+          <div class="w-[70%]  lg:p-8 bg-white  relative" style="border-radius:20px; border-right: dashed; border-color: #1DD100;">
+           <div class="flex items-center justify-between gap-2">
+      
+            <div class="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center gap-2">
+                    <img class="" src="./image/images/bus-logo.png" alt="" srcset="">
+            <div class="w-full">
+              <h1 class=" text-[25px] lg:text-[30px] font-bold">Greenline Paribahan</h1>
+               <p class="text-gray-400">Coach-009-WEB ! AC_Business</p>
+            </div>
+            </div>
+      
+            <div>
+              <div>
+                <p class="flex lg:gap-2 flex-col md:flex-row lg:flex-row mr-10 lg:mr-5 text-center items-center text-[#1DD100] bg-[#c4f7bc] rounded p-2"><img class="" src="./image/images/seat-green.png"><span id="forty">40</span>seats left</p>
+              </div>
+            </div>
           </div>
       
-   
-     
-      <!-- <h1 class="text-[36px] font-bold">15% OFF </h1>
-      <p class="font-semibold">on your next purchase</p>
-      <p class="text-gray-400">use by January 2024</p> -->
-      <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
-      </div>
-
-
-      <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
-      </div>
-    </div>
-
-
-
-
-   </div>
-
-    <div class="w-[30%] bg-white p-8 relative flex flex-col items-center justify-center" style="border-radius:20px;">
-
-    <img src="./image/images/fare.png" alt="" srcset="">
-     <h1 class="text-[33px] font-bold">550Taka</h1>
-     <p class="" style="background-image: linear-gradient ( to bottom ,rgb(181, 180, 180),rgb(124, 120, 120));">Per seat</p>
-    </div>
-  </div>
-<!-- seat section starts here -->
-    <div id="seat_section" class="bg-white my-7">
-
-      <div>
-        <div class="text-[30px] font-bold p-3" >
-          <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
+       
+      
+          <div class="flex flex-col gap-3 p-6 justify-between  bg-[#F7F8F8]">
+            <div class=" bg-[#F7F8F8] p-5">
+            <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+            <p class="">Route</p>
+            <p class="" >Dhaka</p>
+            </div>
+            </div> 
+      
+      
+            <div class=" bg-[#F7F8F8] p-5">
+              <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+              <p class="">Departure Time</p>
+              <p class="" >9:00 PM</p>
+              </div>
+              </div> 
+      
+      
+              <div class=" bg-[#F7F8F8] p-5 ">
+                <div class="flex items-center justify-between flex-col md:flex-col lg:flex-row  gap-2 py-2">
+                  <button class="btn btn-primary bg-gray-300 text-black px-10 lg:px-0 ">Boarding Point - Laxmipur</button>
+                  <button class="btn btn-primary bg-gray-300 text-black">Dropping Point - BoguraLaxmipur</button>
+                  <button class="btn btn-primary bg-gray-300 text-black px-0 md:px-4 lg:px-0">Est. Time - 11 HourBoguraLaxmipur</button>
+                </div> 
+                </div>
+            
+         
+            <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+            </div>
+      
+      
+            <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+            </div>
+          </div>
+      
+      
+      
+      
+         </div>
+      
+          <div class="w-[30%] bg-white p-4 md:p-7 lg:p-8 relative flex flex-col items-center justify-center" style="border-radius:20px;">
+      
+          <img src="./image/images/fare.png" alt="" srcset="">
+           <h1 class=" text-[20px] md:text-[33px]  lg:text-[33px] font-bold">550Taka</h1>
+           <p class="" style="background-image: linear-gradient ( to bottom ,rgb(181, 180, 180),rgb(124, 120, 120));">Per seat</p>
+          </div>
+        </div>
+      <!-- seat section starts here -->
+          <div id="seat_section" class="bg-white my-11 flex flex-col md:flex-row lg:flex-row justify-between">
+      
+            <div class="w-[100%] md:w-[60%] lg:w-[60%] border-r-2 border-dashed">
+              <div class="text-[30px] font-bold p-3" >
+                <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
+                
+              </div>
+      
+              <div class="p-3">
+           <div class="flex justify-between pb-3 md:border-b-2 lg:border-b-2 md:border-dashed lg:border-dashed md:border-gray-300 lg:border-gray-300">
+           <p class="flex items-center gap-1"><img src="./image/images/seat-gray.png"> Available</p>
+           <p class="flex items-center gap-1 text-[#1DD100]"><img src="./image/images/seat-green-filled.png"> selected</p>
+              </div>
+              </div>
+      
+      
+              <div>
+                <div class="flex justify-end pr-3" >
+                  <!-- <i class="fa-solid fa-baseball bg-slate-300 px-16 py-4 rounded "></i> -->
+                  <img src="./image/images/Group 56.svg" alt="">
+                </div>
+            </div>
+      
+      
+      
+      
+      
+          <div class="p-3">
+          <div class="grid-container grid grid-cols-5 gap-3 text-center" id="grid-container">
+          <div class="item item-fixed" id="item-1">A</div>
+          <div class="item" id="item-2">A1</div>
+          <div class="item" id="item-3">A2</div>
+          <div class="item" id="item-4">A3</div>
+          <div class="item" id="item-5">A4</div>
+          <div class="item item-fixed" id="item-6">B</div>
+          <div class="item" id="item-7">B1</div>
+          <div class="item" id="item-8">B2</div>
+          <div class="item" id="item-9">B3</div>
+          <div class="item" id="item-10">B4</div>
+          <div class="item item-fixed" id="item-11">C</div>
+          <div class="item " id="item-12">C1</div>
+          <div class="item" id="item-13">C2</div>
+          <div class="item" id="item-14">C3</div>
+          <div class="item" id="item-15">C4</div>
+          <div class="item item-fixed" id="item-16">D</div>
+          <div class="item" id="item-17">D1</div>
+          <div class="item" id="item-18">D2</div>
+          <div class="item selected bg-[#1DD100] text-white" id="item-19">D3</div>
+          <div class="item" id="item-20">D4</div>
+          <div class="item item-fixed" id="item-21">E</div>
+          <div class="item selected bg-[#1DD100] text-white" id="item-22">E1</div>
+          <div class="item" id="item-23">E2</div>
+          <div class="item" id="item-24">E3</div>
+          <div class="item" id="item-25">E4</div>
+          <div class="item item-fixed" id="item-26">F</div>
+          <div class="item" id="item-27">F1</div>
+          <div class="item" id="item-28">F2</div>
+          <div class="item" id="item-29">F3</div>
+          <div class="item" id="item-30">F4</div>
+          <div class="item item-fixed" id="item-31">G</div>
+          <div class="item" id="item-32">G1</div>
+          <div class="item selected bg-[#1DD100] text-white" id="item-33">G2</div>
+          <div class="item" id="item-34">G3</div>
+          <div class="item" id="item-35">G4</div>
+          <div class="item item-fixed" id="item-36">H</div>
+          <div class="item" id="item-37">H1</div>
+          <div class="item" id="item-38">H2</div>
+          <div class="item" id="item-39">H3</div>
+          <div class="item" id="item-40">H4</div>
+          <!-- <div class="item" id="item-10">A-31</div> -->
+      
+            </div>
+          </div>
+      
+      
+            </div>
+      
+      
+      
+         <!-- another seat start section -->
+            <div class="w-[100%] md:w-[40%] lg:w-[40%] p-3">
+              <div>
+                <div class="text-[30px] font-bold pb-3" >
+                  <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
+                  
+                </div>
+            </div>
+      
+      
+      
+            <div class="bg-[#F7F8F8] rounded p-4">
+              <div class="flex justify-between pb-1 border-b-2 border-dashed border-[#9d9494]" >
+                <p class="flex items-center gap-1">seat <span class="bg-green-500 text-white font-bold rounded-xl px-[13px]"> 2</span></p>
+                <p>class</p>
+                <p>Price</p>
+              </div>
+      
+              <div id="economy-container" class="border-b-2 border-solid border-gray-500 pb-1">
+                <div class="flex justify-between">
+                  <p>C2</p>
+                  <p>economy</p>
+                  <p>500</p>
+                </div>
+      
+                <div class="flex justify-between">
+                  <p>C2</p>
+                  <p>economy</p>
+                  <p>500</p>
+                </div>
+              </div>
+      
+              <div class="flex justify-between pt-2 font-bold">
+                <p>Total Price</p>
+                <p >BDT <span id="total-price">500</span></p>
+              </div>
+      
+      
+      
+               <div id="input-coupon" class="py-2">
+              <div class="flex bg-white rounded p-[5px] justify-between">
+            <input class="outline-0 w-full rounded placeholder:text-gray-300" type="number" name="number" id="number" placeholder="Have any coupon">
+            <button class="bg-green-500 rounded p-2 text-white text-center">Apply</button>
+              </div>
+            </div>
+      
+            <!-- grand total -->
+            <div class="font-semibold flex justify-between pb-3">
+              <p>Grand Total</p>
+              <p>BDT <span id="grand_total">1100</span></p>
+            </div>
+      
+            </div>
+         
+      <!-- input section starts -->
+         <div class="font-semibold">
+        <label for="" class="">Passenger Name*<br>
+           <input class="outline-0 rounded-xl placeholder:text-gray-300 border-[#dfe3e3e5] border-solid border-2 p-2 w-full" type="text" name="" id="" placeholder="Enter your name">
+        </label>
+        <br>
+        <label for="">Passenger Number* <br>
+          <input  class="outline-0 rounded-xl placeholder:text-gray-300 border-[#dfe3e3e5] border-solid border-2 p-2 w-full" type="number" name="" id="" placeholder="Enter your phone number">
+       </label>
+      
+      <br>
+      
+       <label for="">Email ID <br>
+        <input  class="outline-0 rounded-xl placeholder:text-gray-300 border-[#dfe3e3e5] border-solid border-2 p-2 w-full" type="text" name="" id="" placeholder="Enter your email id">
+      </label>
+      <br>
+      <br>
+       <label for="" class="mt-4">
+        <input  class="outline-0 rounded-xl text-white    p-2 w-full bg-[#1DD100]" type="submit" name="" id="" value="Next">
+       </label>
+      
+        <div class="flex text-center justify-around flex-col md:flex-row lg:flex-row font-normal">
+          <a href="#" class="border-solid border-gray-400 border-b-2">Terms and Conditions</a>
+          <a href="#" class="border-solid border-gray-400 border-b-2">Cancellation Policy</a>
+        </div>
+         </div>
+      <!-- input section ends -->
+      
+      
+          </div>
           
-        </div>
-
-        <div class="p-3">
-     <div class="flex justify-between pb-3"  style="border-bottom: 2px solid gray; border-style: dashed;">
-     <p class="flex items-center gap-1"><img src="./image/images/seat-gray.png"> Available</p>
-     <p class="flex items-center gap-1"><img src="./image/images/seat-green-filled.png"> selected</p>
-        </div>
-        </div>
-
-
-      </div>
-
-
-
-
-
-      <div>
-
-      </div>
-    </div>
-<!-- seat section ends here -->
-
-
-  </section>
-
+         <!-- another seat ends section -->
+      
+      
+       
+      <!-- seat section ends here -->
+          </div>
+          
+          
+      
+        </section>
+        
+      </section> 
+      
 <!--  Paribhan section ends here -->
 
-</section>    
+<!-- footer section starts here -->
+<section id="footer" class="bg-neutral p-20">
+  <footer class="footer items-center bg-neutral text-neutral-content border-dashed border-gray-400 border-b-2 pb-7">
+      <aside class="items-center grid-flow-col text-white">
+          <div>
+               <h1 class="text-[35px] font-semibold py-2">P-Ticket</h1>
+          <p class="text-gray-300">P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+          </div>
+      </aside> 
+      <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          <div>
+          <h4 class="text-[26px] text-white font-semibold py-3">Download our app</h4>
+          <div class="flex items-center">
+           <img src="./image/images/playstore.png" alt="">  
+           <div>
+           <p class="font-semibold text-white">GET IT ON</p>
+           <h2 class="font-bold text-white text-[27px]">Google Play</h2>
+           </div>  
+
+          </div>   
+          </div>
+      </nav>  
+</footer>
+
+
+<footer class="footer items-center py-5 bg-neutral text-neutral-content">
+  <aside class="items-center grid-flow-col">
+    <p>@all rights reserved, P-Ticket services limited.2024</p>
+  </aside> 
+  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <a href="#">Terms & condition</a>
+  </nav>
+
+  <div>
+      <a href="#">Return & refund policy</a>
+  </div>
+
+  <div>
+      <a href="#">Privacy policy</a>
+  </div>
+</footer>
+</section>
+<!-- footer section ends here -->
+   
 </body>
 </html>
