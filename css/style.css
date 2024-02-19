@@ -20,3 +20,40 @@
 .item-fixed{
     background-color: transparent; padding: 10px 5px;
 }
+
+
+/* @media screen and (max-width:350px){
+    #last-btn{
+        width:28%;
+      }
+      #dropping{
+        padding: 0;
+      } 
+  } */
+
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width:1160px){
+  #last-btn{
+    width: min-content;
+    padding: 7px;
+  }
+  }
+
+  /* @media screen and (max-width:1036px){
+    #last-btn{
+        width: 30%;
+      }
+    
+  } */
+
+ 
+
+  @media screen and (max-width:350px){
+    #last-btn{
+        width: min-content;
+      }
+    
+  }

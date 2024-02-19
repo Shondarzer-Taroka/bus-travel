@@ -16,22 +16,25 @@
     <link rel="stylesheet" href="css/style.css">
     <title>P-ticket</title>
 </head>
-<body>
+<body class="bg-[#F7F8F8]">
 
   <section class=" max-w-[1172px] mx-auto">
     <section id="navigation" class="navigation">
 
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 px-0">
           <div class="navbar-start">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
                 <li><a>Destination</a></li>
+                <li><a>Search</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl">P-Ticket</a>
+            <a class="btn btn-ghost px-0 text-xl">P-Ticket</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -52,7 +55,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-[#bdead0de] text-[#1ee872d4] flex gap-1 items-center font-semibold">Bus <img src="./image/images/bus-icon.png" alt="" srcset=""></a>
+            <a class="btn bg-[#bdead0de] text-[#1DD100] flex gap-1 items-center font-bold">Bus <img src="./image/images/bus-icon.png"></a>
           </div>
         </div>
   </section>
@@ -79,24 +82,24 @@
   <!-- coupon section starts here -->
 
 
-  <section id="coupon" class="coupon mt-9 flex items-center justify-between flex-col gap-[90px] md:gap-16 lg:gap-5 lg:flex-row h-[100%] ">
+  <section id="coupon" class="coupon mt-9 flex items-center justify-between  gap-[90px] md:gap-16 lg:gap-5 flex-col md:flex-row lg:flex-row h-[100%] ">
     <div class="flex">
 
-     <div class="w-[60%] lg:w-[290px] h-[180px] p-5 md:p-8 lg:p-8 bg-yellow-500  relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+     <div class="w-[60%] lg:w-[290px] h-[190px] p-5 md:p-8 lg:p-8 bg-yellow-500  relative border-r border-dashed border-white  rounded-[20px]">
        <h1 class="text-[25px] lg:text-[36px] font-bold">15% OFF </h1>
        <p class="font-semibold">on your next purchase</p>
        <p class="text-gray-400">use by January 2024</p>
-       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+       <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
        </div>
 
 
-       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+       <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
        </div>
      </div>
 
 
 
-     <div class="w-[44%] lg:w-[190px] h-[180px] bg-yellow-500 py-8 lg:p-8 relative" style="border-radius:20px;">
+     <div class="w-[45%] lg:w-[200px] h-[190px] bg-yellow-500 py-8 lg:p-8 relative rounded-[20px]">
        <h1 class="text-[24px] lg:text-[36px] font-bold">NEW15</h1>
        <p class="text-gray-400">Coupon Code</p>
      </div>
@@ -106,20 +109,20 @@
 
 
     <div class="flex">
-     <div class="w-[60%] lg:w-[290px] h-[190px] p-5 lg:p-8 bg-[#F78C9C] relative" style="border-radius:20px; border-right: dashed; border-color: aliceblue;">
+     <div class="w-[60%] lg:w-[290px] h-[190px] p-5 lg:p-8 bg-[#F78C9C] relative border-r border-dashed border-white  rounded-[20px]">
        <h1 class="text-[24px] lg:text-[36px] font-bold">20% OFF </h1>
        <p class="font-semibold">on your next purchase</p>
        <p class="text-gray-400">use by January 2024</p>
-       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
+       <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute top-[-30px] right-[-37px] z-50">
        </div>
-       <div class="w-[70px] h-[70px] bg-white rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
+       <div class="w-[70px] h-[70px] bg-[#F7F8F8] rounded-[50%] absolute bottom-[-30px] right-[-37px] z-50">
        </div>
      </div>
 
 
 
-     <div class="w[45%] lg:w-[200px] h-[190px] bg-[#F78C9C] p-8 relative" style="border-radius:20px;">
-       <h1 class="text-[14px] lg:text-[36px] font-bold">Couple20</h1>
+     <div class="w[45%] lg:w-[200px] h-[190px] bg-[#F78C9C] p-3 relative rounded-[20px]">
+       <h1 class="text-[23px] lg:text-[36px] font-bold pt-7">Couple 20</h1>
        <p class="text-gray-400">Coupon Code</p>
 
      </div>
@@ -139,7 +142,7 @@
   <!-- Paribhan section starts here -->
 
   
-    <section id="clickme" class="bg-[#F7F8F8]" style=" border-top:2px solid #1DD100; border-radius: 30px;">
+    <section id="clickme" class="bg-[#F7F8F8] border-t-2 border-solid border-[#1DD100] rounded-[30px]">
 
         <h1 class="text-[44px] font-bold text-center">P.H Paribahan</h1>
         <p class="text-gray-400 text-center">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .</p>
@@ -148,7 +151,7 @@
         <!--  starts-->
         <div class="flex p-2" style="margin-top: 1.5rem;">
       
-          <div class="w-[70%]  lg:p-8 bg-white  relative" style="border-radius:20px; border-right: dashed; border-color: #1DD100;">
+          <div class="w-[70%]  lg:p-8 bg-white  relative border-r border-dashed border-[#1DD100]  rounded-[20px]">
            <div class="flex items-center justify-between gap-2">
       
             <div class="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center gap-2">
@@ -161,7 +164,7 @@
       
             <div>
               <div>
-                <p class="flex lg:gap-2 flex-col md:flex-row lg:flex-row mr-10 lg:mr-5 text-center items-center text-[#1DD100] bg-[#c4f7bc] rounded p-2"><img class="" src="./image/images/seat-green.png"><span id="forty">40</span>seats left</p>
+                <p class="flex gap-1 md:gap-2 lg:gap-2 flex-col md:flex-row lg:flex-row mr-10 lg:mr-5 text-center items-center text-[#1DD100] bg-[#c4f7bc] rounded p-2"><img class="" src="./image/images/seat-green.png"><span id="forty">40</span>seats left</p>
               </div>
             </div>
           </div>
@@ -170,7 +173,7 @@
       
           <div class="flex flex-col gap-3 p-6 justify-between  bg-[#F7F8F8]">
             <div class=" bg-[#F7F8F8] p-5">
-            <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+            <div class="flex items-center justify-between gap-2 py-2 border-b-2 border-dashed border-gray-300">
             <p class="">Route</p>
             <p class="" >Dhaka</p>
             </div>
@@ -178,7 +181,7 @@
       
       
             <div class=" bg-[#F7F8F8] p-5">
-              <div class="flex items-center justify-between gap-2 py-2" style="border-bottom: dashed; border-color: gray;">
+              <div class="flex items-center justify-between gap-2 py-2 border-b-2 border-dashed border-gray-300">
               <p class="">Departure Time</p>
               <p class="" >9:00 PM</p>
               </div>
@@ -188,8 +191,8 @@
               <div class=" bg-[#F7F8F8] p-5 ">
                 <div class="flex items-center justify-between flex-col md:flex-col lg:flex-row  gap-2 py-2">
                   <button class="btn btn-primary bg-gray-300 text-black px-10 lg:px-0 ">Boarding Point - Laxmipur</button>
-                  <button class="btn btn-primary bg-gray-300 text-black">Dropping Point - BoguraLaxmipur</button>
-                  <button class="btn btn-primary bg-gray-300 text-black px-0 md:px-4 lg:px-0">Est. Time - 11 HourBoguraLaxmipur</button>
+                  <button class="btn btn-primary bg-gray-300 text-black" id="dropping">Dropping Point - BoguraLaxmipur</button>
+                  <button class="btn btn-primary bg-gray-300 text-black px-0 md:px-4 lg:px-0" id="last-btn">Est. Time - 11 HourBoguraLaxmipur</button>
                 </div> 
                 </div>
             
@@ -207,20 +210,19 @@
       
          </div>
       
-          <div class="w-[30%] bg-white p-4 md:p-7 lg:p-8 relative flex flex-col items-center justify-center" style="border-radius:20px;">
+          <div class="w-[30%] bg-white p-4 md:p-7 lg:p-8 relative flex flex-col items-center justify-center rounded-[20px]">
       
           <img src="./image/images/fare.png" alt="" srcset="">
            <h1 class=" text-[20px] md:text-[33px]  lg:text-[33px] font-bold">550Taka</h1>
-           <p class="" style="background-image: linear-gradient ( to bottom ,rgb(181, 180, 180),rgb(124, 120, 120));">Per seat</p>
+           <p class="text-gray-800">Per seat</p>
           </div>
         </div>
       <!-- seat section starts here -->
-          <div id="seat_section" class="bg-white my-11 flex flex-col md:flex-row lg:flex-row justify-between">
+          <div id="seat_section" class="rounded-xl bg-white my-11 flex flex-col md:flex-row lg:flex-row justify-between">
       
             <div class="w-[100%] md:w-[60%] lg:w-[60%] border-r-2 border-dashed">
               <div class="text-[30px] font-bold p-3" >
-                <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
-                
+                <h2 class="border-b-2 border-dashed border-gray-300 pb-3">Select your seat</h2> 
               </div>
       
               <div class="p-3">
@@ -262,10 +264,10 @@
           <div class=" item-fixed" id="item-16">D</div>
           <div class="item" id="item-17">D1</div>
           <div class="item" id="item-18">D2</div>
-          <div class="item selected bg-[#1DD100] text-white" id="item-19">D3</div>
+          <div class="item selected " id="item-19">D3</div>
           <div class="item" id="item-20">D4</div>
           <div class=" item-fixed" id="item-21">E</div>
-          <div class="item selected bg-[#1DD100] text-white" id="item-22">E1</div>
+          <div class="item selected " id="item-22">E1</div>
           <div class="item" id="item-23">E2</div>
           <div class="item" id="item-24">E3</div>
           <div class="item" id="item-25">E4</div>
@@ -276,7 +278,7 @@
           <div class="item" id="item-30">F4</div>
           <div class=" item-fixed" id="item-31">G</div>
           <div class="item" id="item-32">G1</div>
-          <div class="item selected bg-[#1DD100] text-white" id="item-33">G2</div>
+          <div class="item selected " id="item-33">G2</div>
           <div class="item" id="item-34">G3</div>
           <div class="item" id="item-35">G4</div>
           <div class=" item-fixed" id="item-36">H</div>
@@ -298,23 +300,23 @@
             <div class="w-[100%] md:w-[40%] lg:w-[40%] p-3">
               <div>
                 <div class="text-[30px] font-bold pb-3" >
-                  <h2 style="border-bottom: 2px solid gray; border-style: dashed; padding-bottom: 12px;">Select your seat</h2>
+                  <h2 class="border-b-2 border-dashed border-gray-300 pb-3">Select your seat</h2>
                   
                 </div>
             </div>
       
       
       
-            <div class="bg-[#F7F8F8] rounded p-4">
-              <div class="flex justify-between pb-1 border-b-2 border-dashed border-[#9d9494]" >
+            <div class="bg-[#F7F8F8] rounded-xl p-4">
+              <div class="flex justify-between border-b-2 border-dashed border-gray-300 pb-3 font-bold" >
                 <p class="flex items-center gap-1">seat <span id="seat-increase" class="bg-green-500 text-white font-bold rounded-xl px-[13px]">0</span></p>
-                <p>class</p>
+                <p class="w-[100px]">class</p>
                 <p>Price</p>
               </div>
       
-              <div id="economy-container" class="border-b-2 border-solid border-gray-500 pb-1">
-                <div id="economy-1" class="flex justify-between">
-                  <p>C2</p>
+              <div id="economy-container" class="border-b-2 border-solid border-gray-400 pb-1">
+                <div id="economy-1" class="flex justify-between items-baseline">
+                  <p>C1</p>
                   <p>economy</p>
                   <p>550</p>
                 </div>
@@ -329,6 +331,11 @@
               <div class="flex justify-between pt-2 font-bold">
                 <p>Total Price</p>
                 <p >BDT <span id="total-price">500</span></p>
+              </div>
+
+
+              <div id="display_discount" class="flex justify-between pt-2 font-bold">
+
               </div>
       
       
@@ -433,7 +440,7 @@
 <!--  Paribhan section ends here -->
 
 <!-- footer section starts here -->
-<section id="footer" class="bg-neutral p-20">
+<section id="footer" class="bg-neutral p-3 md:p-16 lg:p-20">
   <footer class="footer items-center bg-neutral text-neutral-content border-dashed border-gray-400 border-b-2 pb-7">
       <aside class="items-center grid-flow-col text-white">
           <div>

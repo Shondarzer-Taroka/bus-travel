@@ -6,6 +6,8 @@ let sum=0
 console.log(click);
 let seat=0
 
+
+
 for (const item of items) {
  
   item.addEventListener('click',function removing(e) {
@@ -23,6 +25,12 @@ for (const item of items) {
    
     seat++
     click++
+
+    // console.log(seat);
+
+    if (seat>4) {
+      alert("You can buy only four seats")
+    }
 
       if (seat<=4) {
         decrease_seat++
@@ -46,14 +54,16 @@ for (const item of items) {
             let my_coupon=document.getElementById('my-coupon')
         
             apply_button.addEventListener('click',function () {
-            let value_my_coupon=document.getElementById('my-coupon').value.split(' ').join('').toUpperCase()
+            // let value_my_coupon=document.getElementById('my-coupon').value.split(' ').join('').toUpperCase()
+            let value_my_coupon=document.getElementById('my-coupon').value
             console.log( value_my_coupon);
 
-            if (value_my_coupon==='NEW15' || value_my_coupon==='COUPLE20') {
+            if (value_my_coupon==='NEW15' || value_my_coupon==='Couple 20') {
               if (value_my_coupon==='NEW15') {
                 let cutting= 0.15*sum
                 // console.log(cutting);
                 let total_amount=sum-cutting
+                discount(cutting)
                 grand_total.innerText=total_amount
                 document.getElementById('input-coupon').classList.add('hidden')
                 document.getElementById('input-coupon').classList.remove('flex')
@@ -66,6 +76,7 @@ for (const item of items) {
                 let cutting= 0.2*sum
                 // console.log(cutting);
                 let total_amount=sum-cutting
+                discount(cutting)
                 grand_total.innerText=total_amount
 
                 document.getElementById('input-coupon').classList.add('hidden')
@@ -79,6 +90,10 @@ for (const item of items) {
 
             }) 
           }
+
+          // else{
+          //   alert('You can buy only four seats')
+          // }
          
           
             // document.getElementById('my-coupon').removeAttribute('disabled')
@@ -161,7 +176,21 @@ for (const item of items) {
    div.classList.add('flex','justify-between')
    return div
  }
+
+
+ function discount(discountVlue) {
+  let display_discount=document.getElementById('display_discount')
+  let p1 =document.createElement('p')
+  p1.innerText='Discount'
+  display_discount.appendChild(p1)
+  let p2 =document.createElement('p')
+  p2.innerText=discountVlue
+  display_discount.appendChild(p2)
+
+
+ }
  
+
   function total(value) {
   let grand_total=document.getElementById('grand_total')
   let myValue=document.getElementById(value).innerText
