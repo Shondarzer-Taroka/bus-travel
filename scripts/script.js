@@ -48,8 +48,8 @@ for (const item of items) {
 
          
           if (click===4) {
-          
-            document.getElementById('apply').removeAttribute('disabled')
+            document.getElementById('my-coupon').removeAttribute('disabled')
+            // document.getElementById('apply').removeAttribute('disabled')
             let apply_button=document.getElementById('apply')
             let my_coupon=document.getElementById('my-coupon')
         
@@ -206,6 +206,9 @@ for (const item of items) {
 
 
 
+ document.getElementById('nextBtn').addEventListener('click',function() {
+  location.reload()
+})
 
   // if (click===4) {
   //   document.getElementById('my-coupon').removeAttribute('disabled')
