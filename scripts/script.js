@@ -56,7 +56,7 @@ for (const item of items) {
             apply_button.addEventListener('click',function () {
             // let value_my_coupon=document.getElementById('my-coupon').value.split(' ').join('').toUpperCase()
             let value_my_coupon=document.getElementById('my-coupon').value
-            console.log( value_my_coupon);
+           
 
             if (value_my_coupon==='NEW15' || value_my_coupon==='Couple 20') {
               if (value_my_coupon==='NEW15') {
@@ -84,6 +84,8 @@ for (const item of items) {
               }
             }else{
               alert("please type valid coupon")
+            document.getElementById('my-coupon').value=""
+
             }
 
 
@@ -167,7 +169,7 @@ for (const item of items) {
    p1.innerText=text
    div.appendChild(p1)
    let p2=document.createElement('p')
-   p2.innerText= 'economy'
+   p2.innerText= 'Economy'
    div.appendChild(p2)
    let p3=document.createElement('p')
    p3.innerText=550
